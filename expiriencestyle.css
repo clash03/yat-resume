@@ -1,0 +1,131 @@
+
+/* ======================== NAVIGATOR/LINK ========================================================= */
+
+.navigator{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #3333336d;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 50%;
+    margin-top: 0%;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke;
+    transform: skew(20deg);
+    transition: box-shadow 1s;
+  
+  }
+  
+  .navigator:hover{
+    box-shadow: 0px 0px 15px 8px rgb(28, 162, 235);
+    transition-duration: 0.5s;
+  }
+  
+  .navigator a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 0%;
+    margin-top: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    transition: text-shadow 0.5s;
+  
+  }
+  
+  
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+  
+  }
+  
+  a:visited {
+    color: rgb(183, 183, 183);
+    background-color: transparent;
+    text-decoration: none;
+  
+  }
+  
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(36, 36, 36), 0 0 5px white, 0 0 2px white;
+  
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  
+  }
+
+/* ========================= END ==================================================================== */
+  
+/* =================== BODY/BACKGROUND=============================================================== */
+
+  body {
+    margin:40px;
+    background: url(csspicture/backgroundeducation.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* ========================= END ===================================================================== */
+
+/* ========================= HEADER/TAJUK PAGE ======================================================= */
+.header{
+  color: white;
+  height: fit-content;
+  width: fit-content;
+  background-color: transparent;
+  background-size: cover;
+  margin-left: 410px;
+  text-shadow: 3px 3px 9px rgba(253, 253, 253, 0.548); 
+  font-size: 20px;
+  overflow: hidden;
+  font-family: 'Segoe UI';
+  padding: 0 20px 0 20px;
+  box-sizing: border-box;
+  font-style: italic;
+  transition: text-shadow 0.5s;
+}
+
+/* ========================= END ====================================================================== */
+
+
+  .section{
+  
+  }
+  
+  .article{
+  
+  
+  }
+  
+  .aside{
+  
+  }
+
+  .footer{
+  
+  
+  }
+
+
+/* ========================= MUSIC/VIDEO ============================================================== */
+  #music{
+    visibility: hidden;
+  }
+/* ========================= END ====================================================================== */
+  
+  

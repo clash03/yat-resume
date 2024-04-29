@@ -1,0 +1,317 @@
+
+
+body {
+  margin:40px;
+  background-image:url(csspicture/background.gif);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.header{
+  height: fit-content;
+  background-color: transparent;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+  padding: 10px;
+  border-radius: 5px;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-shadow: 3px 3px 9px rgb(53, 154, 227); 
+}
+
+
+#logorasmi{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 100px;
+  
+}
+
+#logorasmi:hover{
+  filter: drop-shadow(2px 2px 30px rgb(237, 237, 237));
+  transition-duration: 0.5s;
+}
+
+h1{
+  color: white;
+  
+ 
+}
+
+
+h1:hover{
+  cursor: pointer;
+
+}
+
+h2{
+  color: white;
+  font-size: 40px;
+  margin-top: 200px;
+  font-family: "Candara";
+
+}
+
+/* =======================  ANIMATION H2 WRITING  ================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body{
+  padding: 40px;
+  background-color: #121212;  
+
+}
+
+h2 {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: "Candara", monospace;  
+  font-size: 40px;
+  color: white;
+  
+
+
+}
+
+/* Animation */
+h2 {
+  animation: animated-text 4s steps(35,end) 1s 1 normal both,
+             animated-cursor 700ms steps(35,end) infinite;
+             animation-iteration-count: infinite;
+             animation-fill-mode: forwards;
+}
+
+/* text animation */
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 470px;}
+
+}
+
+/* cursor animations */
+@keyframes animated-cursor{
+  from{border-right-color: rgba(255, 255, 255, 0.75);}
+  to{border-right-color: transparent;}
+
+}
+
+/* ======================== END ============================== */
+
+h3{
+  color: white;
+  font-family: "Candara";
+
+}
+
+h4{
+  color: white;
+  font-family: "Candara";
+
+}
+
+.highlight{
+  background-color: #222121ba;
+  border-radius: 10%;
+  padding-left: 3px;
+  padding-right: 3px;
+
+}
+
+
+
+/* ================== LOGO HTML, CSS, JS ================================================ */
+#logohtml{
+  background-color: transparent;
+  border-radius: 0%;
+  height: 30px;
+  width: 30px;
+
+}
+
+#logocss{
+  background-color: transparent;
+  border-radius: 0%;
+  height: 30px;
+  width: 30px;
+
+}
+
+#logojs{
+  background-color: transparent;
+  border-radius: 0%;
+  height: 30px;
+  width: 30px;
+
+}
+
+#logohtml:hover{
+  box-sizing: border-box;
+  box-shadow: transparent;
+  border: 2px solid transparent;
+  filter: drop-shadow(1px 1px 2px whitesmoke);
+
+}
+
+#logocss:hover{
+  box-sizing: border-box;
+  box-shadow: transparent;
+  border: 2px solid transparent;
+  filter: drop-shadow(1px 1px 2px whitesmoke);
+
+}
+
+#logojs:hover{
+  box-sizing: border-box;
+  box-shadow: transparent;
+  border: 2px solid transparent;
+  filter: drop-shadow(1px 1px 2px whitesmoke);
+
+}
+/* ========================== END ======================================== */
+
+/* ======================= NAVIGATOR/LINK ================================================= */
+.navigator{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #3333336d;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  margin-right: 0%;
+  margin-left: 50%;
+  margin-top: 0%;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke;
+  transform: skew(20deg);
+  transition: box-shadow 1s;
+}
+
+.navigator:hover{
+  box-shadow: 0px 0px 15px 8px rgb(28, 162, 235);
+  transition-duration: 0.5s;
+}
+
+.navigator a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 0%;
+  margin-top: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  transition: text-shadow 0.5s;
+
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+a:visited {
+  color: rgb(183, 183, 183);
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(36, 36, 36), 0 0 5px white, 0 0 2px white;
+
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+
+/* =================== END ======================================= */
+
+.section{
+
+}
+
+.article{
+
+
+}
+
+.aside{
+  float: right;
+  object-position: bottom;
+
+}
+
+p{
+  color: white;
+
+}
+
+.footer{
+
+
+}
+
+/* ===================== GAMBAR PROFIL ============================== */
+#profilepicture{
+  width: 400px;
+  height: 400px;
+  object-fit: center;
+  object-position: right;
+  margin-right: 150px;
+  margin-top: 100px;
+  background-color: transparent;
+  filter: drop-shadow(20px 0px 30px whitesmoke);
+  position: static;
+
+}
+
+#profilepicture:hover{
+  filter: drop-shadow(25px 5px 35px white);
+  cursor: pointer;
+  transition-duration: 0.5s;
+
+}
+
+#music{
+  visibility: hidden;
+
+}
+
+.pdf{
+  box-sizing: border-box;
+  background-color: rgb(39, 39, 39);
+  background-size: cover;
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px whitesmoke;
+  margin-top: 30px;
+  transition: box-shadow 0.5s;
+}
+
+.pdf:hover{
+
+  box-shadow: 1px 1px 20px whitesmoke;
+}

@@ -1,0 +1,431 @@
+/* ======================== NAVIGATOR/LINK ========================================================= */
+  .navigator{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #3333336d;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 50%;
+    margin-top: 0%;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke;
+    transform: skew(20deg);
+    transition: box-shadow 1s;
+    
+  
+  }
+  
+  .navigator:hover{
+    box-shadow: 0px 0px 15px 8px rgb(28, 162, 235);
+    transition-duration: 0.5s;
+    
+  }
+  
+  .navigator a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 0%;
+    margin-top: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    transition: text-shadow 0.5s;
+  
+  }
+  
+  
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+  
+  }
+  
+  a:visited {
+    color: rgb(183, 183, 183);
+    background-color: transparent;
+    text-decoration: none;
+  
+  }
+  
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgb(36, 36, 36), 0 0 5px white, 0 0 2px white;
+  
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  
+  }
+
+/* ========================= END ==================================================================== */
+  
+/* =================== BODY/BACKGROUND=============================================================== */
+
+  body {
+    margin:40px;
+    background: url(csspicture/backgroundeducation.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* ========================= END ===================================================================== */
+
+/* ========================= HEADER/TAJUK PAGE ======================================================= */
+  .header{
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    background-color: transparent;
+    background-size: cover;
+    margin-left: 410px;
+    text-shadow: 3px 3px 9px rgba(253, 253, 253, 0.548); 
+    font-size: 20px;
+    overflow: hidden;
+    font-family: 'Segoe UI';
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    font-style: italic;
+    transition: text-shadow 0.5s;
+  }
+
+  .header:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 30px rgb(50, 98, 255);
+    transition-duration: 0.8s;
+  }
+
+/* ========================= END ====================================================================== */
+  .section{
+  
+  }
+
+
+/* =========================  SKJ, SMKJ, UITM ====================================================================== */
+  #logoskj{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px white;
+    overflow: hidden;
+    position: static;
+    filter: grayscale(50%);
+    transition: box-shadow 0.5s;
+  }
+
+  #logosmkj{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px white;
+    overflow: hidden;
+    position: static;
+    filter: grayscale(50%);
+    transition: box-shadow 0.5s;
+  }
+
+  #logouitm1{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px white;
+    overflow: hidden;
+    position: static;
+    filter: grayscale(50%);
+    transition: box-shadow 0.5s;
+  }
+
+  #logouitm2{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px white;
+    overflow: hidden;
+    position: static;
+    filter: grayscale(50%);
+    transition: box-shadow 0.5s;
+
+  }
+  
+
+  #logoskj:hover{
+    box-shadow: 0px 0px 52px white;
+    filter: grayscale(0%);
+  }
+
+  #logosmkj:hover{
+    box-shadow: 0px 0px 52px white;
+    filter: grayscale(0%);
+  }
+
+  #logouitm1:hover{
+    box-shadow: 0px 0px 52px white;
+    filter: grayscale(0%);
+  }
+
+  #logouitm2:hover{
+    box-shadow: 0px 0px 52px white;
+    filter: grayscale(0%);
+  }
+/* ========================= END ====================================================================== */
+
+
+/* ========================= ALL TEXT LABEL ====================================================================== */
+h3{
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+h4{
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+p{
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+
+/* ========================= END ====================================================================== */
+
+
+/* ========================= LABEL 1 SKJ ====================================================================== */
+
+.label1{
+  box-sizing: border-box;
+  background-color: #0808085e;
+  box-shadow: 1px 1px 1px 1px white;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 400px; 
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  top: 210px;
+  left: 16px;
+}
+
+.label1:hover{
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px white;
+}
+/* ========================= END ====================================================================== */
+
+
+/* ========================= LABEL 2 SMKJ ====================================================================== */
+.label2{
+  box-sizing: border-box;
+  background-color: #0808085e;
+  box-shadow: 1px 1px 1px 1px white;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 400px; 
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  top: 400px;
+  right: 100px;
+}
+
+.label2:hover{
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px white;
+}
+
+/* ========================= END ====================================================================== */
+
+
+/* ========================= LABEL 3 UITM DUNGUN ====================================================================== */
+.label3{
+  box-sizing: border-box;
+  background-color: #0808085e;
+  box-shadow: 1px 1px 1px 1px white;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 400px; 
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  top: 555px;
+  left: 16px;
+}
+
+.label3:hover{
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px white;
+}
+
+/* ========================= END ====================================================================== */
+
+
+/* ========================= LABEL 4 UITM MACHANG ====================================================================== */
+.label4{
+  box-sizing: border-box;
+  background-color: #0808085e;
+  box-shadow: 1px 1px 1px 1px white;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 400px; 
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  top: 760px;
+  right: 100px;
+}
+
+.label4:hover{
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px white;
+}
+/* ========================= END ====================================================================== */
+
+
+/* ========================= TRIANGLE ARROW ====================================================================== */
+
+.triangle-right1 {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #060606d5;
+	border-bottom: 25px solid transparent;
+  top: 270px;
+  left: 450px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  filter: drop-shadow(0px 2px 0 rgb(255, 255, 255));
+  cursor: pointer;
+}
+
+.triangle-right2 {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #060606d5;
+	border-bottom: 25px solid transparent;
+  top: 470px;
+  right: 550px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  filter: drop-shadow(0px 2px 0 rgb(255, 255, 255));
+  cursor: pointer;
+}
+
+.triangle-right3 {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #060606d5;
+	border-bottom: 25px solid transparent;
+  top: 675px;
+  left: 450px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  filter: drop-shadow(0px 2px 0 rgb(255, 255, 255));
+  cursor: pointer;
+}
+
+.triangle-right4 {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #060606d5;
+	border-bottom: 25px solid transparent;
+  top: 880px;
+  right: 550px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 2px 0 rgb(255, 255, 255));  
+  cursor: pointer;
+}
+
+
+.triangle-right1:hover{
+  transform: translateY(-5px);
+  transition: transform 100ms;
+  transition-timing-function: linear;
+}
+
+.triangle-right2:hover{
+  transform: translateY(-3px);
+  transition: transform 100ms;
+  transition-timing-function: linear;
+}
+
+
+.triangle-right3:hover{
+  transform: translateY(-3px);
+  transition: transform 100ms;
+  transition-timing-function: linear;
+}
+
+
+.triangle-right4:hover{
+  transform: translateY(-3px);
+  transition: transform 100ms;
+  transition-timing-function: linear;
+}
+
+
+
+
+
+/* ========================= FOOTER ====================================================================== */
+footer{
+
+}
+
+/* ========================= END ====================================================================== */
+
+
+/* ========================= MUSIC/VIDEO ============================================================== */
+  #music{
+    visibility: hidden;
+  }
+/* ========================= END ====================================================================== */
+  
+  
